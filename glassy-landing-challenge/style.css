@@ -1,0 +1,16 @@
+* {
+    margin: 5px;
+}
+
+.nav-link {
+    color: #2b2862;
+    font-weight: 500;
+}
+
+#header-btn {
+    background-color: #2b2862;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
