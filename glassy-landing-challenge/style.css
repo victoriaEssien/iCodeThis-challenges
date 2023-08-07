@@ -35,7 +35,7 @@ body {
 #header-btn {
     background-color: #2b2862;
     color: #fff;
-    margin-left: 10px;
+    text-decoration: none;
     padding: 14px 30px;
     border-radius: 4px;
     font-size: 0.9rem;
@@ -109,4 +109,10 @@ section {
 .stats-subheader {
     font-size: 0.9rem;
     max-width: 100%;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .nav-item, .sign-up-btn {
+        text-align: center;
+    }
 }
