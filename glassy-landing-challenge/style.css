@@ -22,6 +22,10 @@ body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.logo {
+    width: 5%;
+}
+
 .nav-link {
     color: #2b2862;
     font-weight: 700;
@@ -60,20 +64,45 @@ section {
 
 .stats {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .stat-div {
-    margin-right: 15px;
-    max-width: 100%;
+    padding: 30px;
+    width: 100%;
     background: #fff;
     border-radius: 3px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: hsla(240, 5%, 71%, 0.2) 0px 7px 15px 0px;
 }
 
 .stats-header {
     font-weight: 700;
     line-height: 1.5;
-    margin-top: 10%;
+    margin: 3% 0 10% 0;
+}
+
+.stats-location, .stats-link {
+    text-decoration: none;
+}
+
+.stats-location {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #6173FE;
+}
+
+.stats-link {
+    border: 1px solid #babccf;
+    padding: 8px 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-top: 5%;
+    border-radius: 20px;
+    color: #6173FE;
+}
+
+.stats-subheader {
+    font-size: 0.9rem;
+    max-width: 100%;
 }
