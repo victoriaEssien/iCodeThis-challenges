@@ -1,19 +1,37 @@
 * {
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 body {
     font-family: 'Libre Baskerville', serif;
+    background-image: url("https://cdn.wallpapersafari.com/79/69/wDeF5H.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.glass-bg {
+    background: #fff;
+    margin: 5%;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.70 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 30.5px );
+    -webkit-backdrop-filter: blur( 30.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .nav-link {
     color: #2b2862;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 0.9rem;
 }
 
 #header-btn {
     background-color: #2b2862;
     color: #fff;
+    margin-left: 10px;
     padding: 14px 30px;
     border-radius: 4px;
     font-size: 0.9rem;
@@ -25,7 +43,7 @@ section {
 }
 
 .hero-header {
-    max-width: 90%;
+    max-width: 100%;
     font-size: 3rem;
     line-height: 1.6;
     color: #2B2864;
@@ -34,8 +52,28 @@ section {
 
 .hero-subheader {
     color: #1f1d49;
-    max-width: 75%;
+    max-width: 78%;
     line-height: 1.8;
     margin-top: 8px;
     font-size: 0.9rem;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.stat-div {
+    margin-right: 15px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.stats-header {
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 10%;
 }
