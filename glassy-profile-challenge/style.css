@@ -1,3 +1,19 @@
 body {
-    background-color: red;
+    background-color: #c5c9df;
+}
+
+.div-bg {
+
+    background: #141A41;
+}
+
+.glass-card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.profile-picture {
+    width: 5%;
+    border-radius: 100%;
 }
