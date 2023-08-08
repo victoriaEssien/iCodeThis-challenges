@@ -1,0 +1,169 @@
+
+body {
+    background: #242640;
+}
+
+.container {
+    margin: 6% auto;
+    background: #2F314F;
+    width: 70%;
+    padding: 40px 60px;
+    border-radius: 10px;
+}
+
+.top-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    background: #fff;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+.settings {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 3%;
+    width: 45%;
+}
+
+.people-container {
+    margin-top: 3%;
+    border: 1px solid hsl(236, 25%, 35%);
+    border-radius: 40px;
+    padding: 10px 10px;
+}
+
+.profile-pill {
+    display: inline-flex;
+    background: #41436B;
+    padding: 5px 20px;
+    align-items: center;
+    border-radius: 6em;
+    gap: 10px;
+}
+
+.profile-picture {
+    height: 1.7em;
+    width: 1.7em;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -10%;
+}
+
+.username {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+input.checkb {
+    width: 15px;
+    height: 15px;
+}
+
+#check {
+    margin-top: 4%;
+    accent-color: #242640;
+}
+
+.checkbox {
+    color: #fff;
+}
+
+.bottom-ctas {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.feedback-link, .cancel-btn, .send-btn {
+    text-decoration: none;
+}
+
+.feedback-link {
+    color: #707DFC;
+    margin-right: auto;
+}
+
+.cancel-btn, .send-btn {
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.cancel-btn {
+    background: #292B48;
+}
+
+.send-btn {
+    background: #717FFF;
+}
+
+.send-btn:hover, .cancel-btn:hover {
+    background: #5c6cff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 30%;
+}
+
+.close {
+    color: #242640;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.message {
+    clear: both;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #242640;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .heading {
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    .people-container {
+        margin-top: 5%;
+    }
+
+    #check {
+        margin-top: 5%;
+    }
+
+    .bottom-ctas {
+        margin-top: 8%;
+    }
+}
