@@ -29,10 +29,10 @@ body {
 .close {
     float: right;
     background: #F5F4FF;
-    color: hsl(245, 36%, 50%);
-    padding: 5px 4px;
+    color: #5952ad;
+    padding: 10px;
     font-size: 1.3rem;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
@@ -65,7 +65,7 @@ body {
     margin-top: 5%;
 }
 
-.form-label {
+.form-label, .form-check-label {
     font-family: 'Nunito', sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
@@ -77,6 +77,11 @@ body {
 
 .form-check-input:checked, .form-check-label::before {
     background-color: #121633;
+}
+
+.accept-link {
+    text-decoration: underline;
+    color: #121633;
 }
 
 .form-note {
@@ -98,4 +103,42 @@ body {
 .submit-btn:hover {
     background: hsl(233, 48%, 20%);
     transition: 2ms;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 30%;
+}
+
+.close-icon {
+    color: #242640;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.modal-header {
+    clear: both;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #242640;
+}
+
+.message {
+    text-align: center;
 }

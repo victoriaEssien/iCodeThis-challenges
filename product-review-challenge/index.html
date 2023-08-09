@@ -20,7 +20,7 @@
 
     <div class="bg">
         <div class="form-container">
-            <form class="form">
+            <form onsubmit="handleSubmit()" class="form">
                 <i class="close fa-solid fa-xmark"></i>
                 <h1 class="rating-header">Overall rating</h1>
                 <div class="ratings-container">
@@ -66,7 +66,7 @@
                 <div class="form-check input-container">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="form-check-label" for="flexRadioDefault1">
-                      I accept the <a href="#">terms and conditions</a>
+                      I accept the <a href="#" id="link" class="accept-link">terms and conditions</a>
                     </label>
                 </div>
 
@@ -74,6 +74,15 @@
 
                 <button type="button" class="submit-btn">Submit product review</button>
             </form>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close-icon">&times;</span>
+            <p class="modal-header">Product Review Form Terms and Conditions:</p>
+            <p class="message">By submitting a product review, you agree that the content you provide is accurate and reflects your genuine opinion based on your personal experience with the product. You grant us the right to use, modify, and display your review on our website and other marketing materials. You also confirm that your review complies with our community guidelines, and you indemnify us against any claims arising from the content you submit. We reserve the right to moderate, reject, or remove reviews that violate these terms or are deemed inappropriate.</p>
+            </div>
         </div>
     </div>
 
