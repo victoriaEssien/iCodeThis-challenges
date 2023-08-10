@@ -1,0 +1,87 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #EDEEF7;
+    padding: 8%;
+}
+
+.bg {
+    width: 80%;
+    margin: 5% auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 40px;
+}
+
+.form-container {
+    background: #fff;
+    width: 75%;
+    margin: -15% auto;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(253, 210, 209, 0.4);
+}
+
+.form-top {
+    margin-right: 0 auto;
+}
+
+.close {
+    float: right;
+    background: #F5F4FF;
+    color: #5952ad;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.popup-header {
+    clear: right;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.popup-subheader {
+    text-align: center;
+}
+
+.input-container, .form-note, .submit-btn {
+    margin-top: 5%;
+}
+
+.form-label, .form-check-label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.form-control {
+    font-size: 1rem;
+}
+
+.form-check-input:checked, .form-check-label::before {
+    border: none;
+    background-color: #121633;
+}
+
+.subscribe-btn {
+    background: #2D2865;
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background: hsl(233, 48%, 20%);
+    transition: 2ms;
+}

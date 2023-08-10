@@ -37,6 +37,7 @@ body {
 }
 
 .rating-header {
+    clear: right;
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
 }

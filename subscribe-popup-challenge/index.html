@@ -9,7 +9,6 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/11f0ed2f6a.js" crossorigin="anonymous"></script>
 
@@ -19,9 +18,13 @@
 <body>
 
     <div class="bg">
+        <div class="orange"></div>
+        <div class="blue"></div>
         <div class="form-container">
-            <form onsubmit="handleSubmit()" class="form">
+            <div class="form-top">
                 <i class="close fa-solid fa-xmark"></i>
+            </div>
+            <form onsubmit="" class="form">
                 <h2 class="popup-header">Enjoyed the read?</h2>
                 <p class="popup-subheader">Join our monthly newsletter for helpful tips on design and more.</p>
 
@@ -36,20 +39,12 @@
                     </label>
                 </div>
 
-                <p class="form-note">You will be able to receive emails in connection with this review (eg if others comment on your review). All emails contain the option to unsubscribe. We can use the text and star rating from your review in other marketing.</p>
-
-                <button type="button" class="submit-btn">Submit product review</button>
+                <div class="d-grid">
+                    <button type="button" class="subscribe-btn">Subscribe</button>
+                </div>
             </form>
         </div>
 
-        <!-- Modal -->
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-            <span class="close-icon">&times;</span>
-            <p class="modal-header">Product Review Form Terms and Conditions:</p>
-            <p class="message">By submitting a product review, you agree that the content you provide is accurate and reflects your genuine opinion based on your personal experience with the product. You grant us the right to use, modify, and display your review on our website and other marketing materials. You also confirm that your review complies with our community guidelines, and you indemnify us against any claims arising from the content you submit. We reserve the right to moderate, reject, or remove reviews that violate these terms or are deemed inappropriate.</p>
-            </div>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
