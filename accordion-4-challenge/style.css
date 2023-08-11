@@ -1,8 +1,9 @@
 
 body {
     background: #F5F8FE;
+    font-family: "Nunito", sans-serif;
 }
 
-.accordion-container {
-    
+.accordion-body {
+    background: #fff;
 }
