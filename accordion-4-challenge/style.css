@@ -22,10 +22,15 @@ body {
     margin-top: 3%;
     width: 96%;
     font-size: 1rem;
+    line-height: 1.6;
 }
 
 .accordion {
     /* cursor: pointer; */
+}
+
+hr {
+    margin-top: 2%;
 }
 
 .first {
@@ -35,8 +40,59 @@ body {
 .open {
     color: #fff;
     background: #10182F;
-    padding: 10px;
+    padding: 8px;
     border-radius: 100px;
     font-weight: 100;
     margin-right: 15px;
+}
+
+.label {
+    font-weight: 500;
+    color: #10182F;
+}
+
+.content-header, .content-text, .accordion-link {
+    margin-left: 55px;
+}
+
+.content-header {
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: hsl(225, 23%, 40%);
+}
+
+.content-text {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: hsl(225, 23%, 40%);
+    line-height: 1.6;
+}
+
+.second {
+    margin-bottom: 5%;
+}
+
+.accordion-link {
+    background: #F7F8FC;
+    color: #10182F;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 6px 25px;
+    border-radius: 30px;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.content {
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.accordion.active .content {
+    height: 300px;
 }
