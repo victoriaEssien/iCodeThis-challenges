@@ -2,8 +2,41 @@
 body {
     background: #F5F8FE;
     font-family: "Nunito", sans-serif;
+    padding: 10%;
 }
 
 .accordion-body {
     background: #fff;
+    padding: 8% 12%;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.accordion-header {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.accordion-description {
+    margin-top: 3%;
+    width: 96%;
+    font-size: 1rem;
+}
+
+.accordion {
+    /* cursor: pointer; */
+}
+
+.first {
+    margin-top: 8%;
+}
+
+.open {
+    color: #fff;
+    background: #10182F;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: 100;
+    margin-right: 15px;
 }
