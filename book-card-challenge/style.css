@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10% 20%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://images.hdqwalls.com/download/desert-dune-landscape-k3-2560x1440.jpg");
+    background-position: center;
+    backdrop-filter: blur(8.3px);
+    -webkit-backdrop-filter: blur(8.3px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.book-card-container {
+    margin: 0 auto;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+}
+
+.top-icons {
+    float: right;
+    padding: 2%;
+}
+
+.share, .close {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.book-body {
+    clear: both;
+}
+
+.book-cover {
+    width: 100%;    
+    text-align: right;
+}
+
+.stars-container {
+    text-align: center;
+    color: #FFCB0E;
+}
+
+.book-visuals {
+    margin: 0 0 0 auto;
+    width: 60%;
+}
+
+.book-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 0.55;
+    color: #FFCB0E;
+}
+
+.book-author {
+    color: #fff;
+    margin: 4% 0 8%;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.author {
+    font-weight: 600;
+}
+
+.book-plot {
+    width: 130%;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 10%;
+}
+
+.continue-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1.5px solid #F75D02;
+    background-color: #38312B;
+    color: #F75D02;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 6px 25px;
+    border-radius: 18px;
+}
